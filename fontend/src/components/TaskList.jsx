@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:4000";
+const API_URL = import.meta.env.VITE_API_URL || " https://task-manager-km43.onrender.com";
 
 const TaskList = ({ tasks = [], refresh }) => {
   const [editId, setEditId] = useState(null);
